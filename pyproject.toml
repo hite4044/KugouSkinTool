@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "KugouSkinTool"
+version = "0.0.1"
+authors = [
+  { name="hite4044", email="hite404@qq.com" },
+]
+description = "Read and write Kugou's skin files(with .suitskin end fix)."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MPL-2.0"
+license-files = ["LICENSE"]
+
+[project.urls]
+Homepage = "https://github.com/hite4044/KugouSkinTool"
+Issues = "https://github.com/hite4044/KugouSkinTool/issues"
